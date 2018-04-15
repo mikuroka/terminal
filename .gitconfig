@@ -1,0 +1,10 @@
+[user]
+    name=mikuroka
+[il8n]
+    commitencoding = UTF-8
+    logoutputencoding = utf-8
+[color]
+    diff = auto
+    status = auto
+    branch = auto
+    interactive = auto

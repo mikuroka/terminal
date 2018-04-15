@@ -1,0 +1,13 @@
+defencoding utf-8
+startup_messag off
+escape ^Zz
+autodetach on
+defscrollback 5000
+fit
+vbell off
+defkanji on
+
+# Show date and screen list
+shelltitle "$ |bash"
+hardstatus alwayslastline "%{= kg}[%Y/%m/%d %02c] %-w%{=b WK}%n %t%{= kW}%+w %-10<%=%{= .W}"
+hardstatus off
